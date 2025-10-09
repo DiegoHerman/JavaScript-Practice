@@ -1,0 +1,25 @@
+.top{
+    display: flex;
+    justify-content:space-between;
+}
+
+.pair{
+    gap:0;
+}
+
+ul
+{
+    display: flex;
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    padding: 0;
+    list-style: none;
+    gap: 5px;
+}
+
+li{
+    height:20px;
+    width: 50px;
+    color: white;
+    background-color: blue;
+}
