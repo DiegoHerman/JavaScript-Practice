@@ -1,38 +1,8 @@
-@keyframes loading{
-    from{
-        stroke-dashoffset:0;
-    }
-    to{
-        stroke-dashoffset:50;
-    }
-}
 
-@keyframes clockwise{
-    from{ 
-        stroke-dashoffset:0;
-    }
-    to{
-        stroke-dashoffset:-50;
-    }
-}
 
 body{
-    display:flex;
+    color: black;
+    display:block;
     justify-content:center;
-}
-
-.circle1{
-    animation:
-    loading 400ms linear infinite;
-}
-
-.circle2{
-    animation:
-    clockwise 400ms ease-out infinite;
-}
-
-
-.circle2{
-    transition: cx 1s, cy 1s;
 }
 
